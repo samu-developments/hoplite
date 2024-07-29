@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
    kotlin("plugin.serialization")
 }
 
@@ -10,4 +11,4 @@ dependencies {
    implementation(libs.kotlinx.serialization.json)
 }
 
-apply("../publish.gradle.kts")
+

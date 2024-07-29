@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
 }
 
 dependencies {
@@ -12,4 +13,4 @@ dependencies {
    testImplementation(libs.testcontainers.postgresql)
 }
 
-apply("../publish.gradle.kts")
+

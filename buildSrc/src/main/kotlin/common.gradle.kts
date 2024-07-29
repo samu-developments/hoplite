@@ -4,8 +4,6 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
    kotlin("jvm")
    `java-library`
-   `maven-publish`
-   signing
 }
 
 repositories {
@@ -27,7 +25,7 @@ dependencies {
    testImplementation("io.kotest:kotest-runner-junit5:5.5.5")
 }
 
-tasks.named<Test>("test") {
+tasks.test {
    useJUnitPlatform()
    testLogging {
       showExceptions = true

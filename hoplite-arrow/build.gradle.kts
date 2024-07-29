@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
 }
 
 dependencies {
@@ -10,4 +11,3 @@ dependencies {
   implementation(libs.arrow.core)
 }
 
-apply("../publish.gradle.kts")

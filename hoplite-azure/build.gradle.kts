@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
 }
 
 dependencies {
@@ -9,4 +10,4 @@ dependencies {
    testApi("io.kotest.extensions:kotest-extensions-testcontainers:2.0.2")
 }
 
-apply("../publish.gradle.kts")
+

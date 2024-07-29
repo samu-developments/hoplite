@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
 }
 
 dependencies {
@@ -10,4 +11,4 @@ dependencies {
    implementation(libs.vavr.kotlin)
 }
 
-apply("../publish.gradle.kts")
+

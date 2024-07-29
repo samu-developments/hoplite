@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
 }
 
 dependencies {
@@ -7,4 +8,4 @@ dependencies {
    implementation(libs.micrometer.registry.statsd)
 }
 
-apply("../publish.gradle.kts")
+

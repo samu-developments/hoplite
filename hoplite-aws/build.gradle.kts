@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
    kotlin("plugin.serialization")
 }
 
@@ -12,4 +13,4 @@ dependencies {
    testApi(libs.testcontainers.localstack)
 }
 
-apply("../publish.gradle.kts")
+

@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
 }
 
 dependencies {
@@ -9,4 +10,4 @@ dependencies {
    testApi(libs.testcontainers.vault)
 }
 
-apply("../publish.gradle.kts")
+

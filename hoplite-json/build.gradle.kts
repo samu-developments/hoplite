@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
 }
 
 dependencies {
@@ -8,4 +9,4 @@ dependencies {
    implementation(libs.jackson.databind)
 }
 
-apply("../publish.gradle.kts")
+

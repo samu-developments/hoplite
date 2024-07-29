@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
    kotlin("plugin.serialization")
 }
 
@@ -8,4 +9,4 @@ dependencies {
    implementation(libs.snakeyaml)
 }
 
-apply("../publish.gradle.kts")
+

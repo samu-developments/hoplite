@@ -1,5 +1,6 @@
 plugins {
    id("common")
+   id("publish")
 }
 
 dependencies {
@@ -8,4 +9,4 @@ dependencies {
    testImplementation(projects.hopliteJson)
 }
 
-apply("../publish.gradle.kts")
+
