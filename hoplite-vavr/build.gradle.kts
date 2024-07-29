@@ -1,3 +1,7 @@
+plugins {
+   id("common")
+}
+
 dependencies {
    api(projects.hopliteCore)
    testImplementation(projects.hopliteToml)
