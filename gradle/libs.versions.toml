@@ -6,9 +6,9 @@ aws1 = "1.12.566"
 aws2 = "2.21.0"
 jackson = "2.15.3"
 testcontainers = "1.19.8"
+kotest = "5.5.5"
 
 [libraries]
-
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
 
 micrometer-core = { module = "io.micrometer:micrometer-core", version.ref = "micrometer" }
@@ -55,18 +55,25 @@ postgresql = { module = "org.postgresql:postgresql", version = "42.6.0" }
 jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jackson" }
 jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
 
-testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "testcontainers" }
-testcontainers-mysql = { module = "org.testcontainers:mysql", version.ref = "testcontainers" }
-testcontainers-localstack = { module = "org.testcontainers:localstack", version.ref = "testcontainers" }
-testcontainers-vault = { module = "org.testcontainers:vault", version.ref = "testcontainers" }
 
 azure-identity = { module = "com.azure:azure-identity", version = "1.10.3" }
 azure-security-keyvault-secrets = { module = "com.azure:azure-security-keyvault-secrets", version = "4.7.0" }
 
 consul-client = { module = "com.orbitz.consul:consul-client", version = "1.5.3" }
 
+# Test
+testcontainers = { module = "org.testcontainers:testcontainers", version.ref = "testcontainers" }
+testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "testcontainers" }
+testcontainers-mysql = { module = "org.testcontainers:mysql", version.ref = "testcontainers" }
+testcontainers-localstack = { module = "org.testcontainers:localstack", version.ref = "testcontainers" }
+testcontainers-vault = { module = "org.testcontainers:vault", version.ref = "testcontainers" }
+kotest-extensions-testcontainers = { module = "io.kotest.extensions:kotest-extensions-testcontainers", version = "2.0.2" }
+kotest-assertions-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+
+# buildSrc plugins deps
+kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
 
 [plugins]
-
 
 [bundles]
