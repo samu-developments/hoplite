@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.6.21"
+kotlin = "1.9.25"
 micrometer = "1.12.8"
 coroutines = "1.6.4"
 aws1 = "1.12.566"
