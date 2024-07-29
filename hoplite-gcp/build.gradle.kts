@@ -6,7 +6,7 @@ plugins {
 dependencies {
    api(projects.hopliteCore)
    api(libs.google.cloud.secretmanager)
-   testApi("io.kotest.extensions:kotest-extensions-testcontainers:2.0.2")
+   testApi(libs.kotest.extensions.testcontainers)
 }
 
 
