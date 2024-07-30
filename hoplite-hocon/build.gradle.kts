@@ -7,5 +7,3 @@ dependencies {
    api(projects.hopliteCore)
    implementation(libs.typesafe.config)
 }
-
-

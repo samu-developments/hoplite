@@ -10,4 +10,3 @@ dependencies {
   testImplementation(projects.hopliteJson)
   implementation(libs.arrow.core)
 }
-

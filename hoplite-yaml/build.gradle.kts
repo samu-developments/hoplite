@@ -8,5 +8,3 @@ dependencies {
    api(projects.hopliteCore)
    implementation(libs.snakeyaml)
 }
-
-

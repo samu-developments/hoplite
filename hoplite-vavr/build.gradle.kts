@@ -10,5 +10,3 @@ dependencies {
    testImplementation(projects.hopliteJson)
    implementation(libs.vavr.kotlin)
 }
-
-

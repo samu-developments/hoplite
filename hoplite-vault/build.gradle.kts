@@ -9,5 +9,3 @@ dependencies {
    testApi(libs.kotest.extensions.testcontainers)
    testApi(libs.testcontainers.vault)
 }
-
-

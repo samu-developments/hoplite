@@ -7,5 +7,3 @@ dependencies {
    api(projects.hopliteCore)
    api(libs.cron.utils)
 }
-
-

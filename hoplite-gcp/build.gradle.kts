@@ -8,5 +8,3 @@ dependencies {
    api(libs.google.cloud.secretmanager)
    testApi(libs.kotest.extensions.testcontainers)
 }
-
-

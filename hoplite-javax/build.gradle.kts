@@ -9,5 +9,3 @@ dependencies {
    testImplementation(projects.hopliteYaml)
    testImplementation(projects.hopliteJson)
 }
-
-

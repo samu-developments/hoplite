@@ -7,5 +7,3 @@ dependencies {
    api(projects.hopliteCore)
    implementation(libs.micrometer.registry.statsd)
 }
-
-
