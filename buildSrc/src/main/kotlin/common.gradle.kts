@@ -17,9 +17,11 @@ repositories {
 group = "com.sksamuel.hoplite"
 version = Ci.version
 
+val libs = versionCatalogs.named("libs")
+
 dependencies {
-   testImplementation("io.kotest:kotest-assertions-core:5.5.5")
-   testImplementation("io.kotest:kotest-runner-junit5:5.5.5")
+   testImplementation(libs.findLibrary("kotest.assertions.core").get())
+   testImplementation(libs.findLibrary("kotest.runner.junit5").get())
 }
 
 tasks.test {
